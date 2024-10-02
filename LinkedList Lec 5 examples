@@ -1,0 +1,157 @@
+//add elements to a LinkedList
+import java.util.LinkedList;
+public class AddElements {
+
+    // Main driver method
+    public static void main(String[] args) {
+        // Creating a LinkedList
+        LinkedList<String> list = new LinkedList<String>();
+
+        // Adding elements to the LinkedList using add() method
+        list.add("One");
+        list.add("Two");
+        list.add("Three");
+        list.add("Four");
+        list.add("Five");
+        // Printing the LinkedList
+        System.out.println(list);
+    }
+}
+
+
+// Java program to iterate the elements in an LinkedList  
+import java.util.*; 
+public class GFG {   
+    public static void main(String args[]) 
+    { 
+        LinkedList<String> ll = new LinkedList<>(); 
+        ll.add("Geeks"); 
+        ll.add("Geeks"); 
+        ll.add(1, "For"); 
+  
+        // Using the Get method and the for loop 
+        for (int i = 0; i < ll.size(); i++) { 
+            System.out.print(ll.get(i) + " "); 
+        } 
+        
+        System.out.println(); 
+        // Using the for each loop 
+        for (String str : ll) 
+        System.out.print(str + " "); 
+    } 
+} 
+
+//size of LinkedList
+import java.io.*;
+import java.util.LinkedList;
+public class GFG2 {
+    public static void main(String args[]) {
+        LinkedList<String> list = new LinkedList<String>();
+        list.add("Geeks for Geeks ");
+        list.add("is best ");
+        // Displaying the size of the list
+        System.out.println("The size of the linked list is: " + list.size());
+    }
+}
+
+//LinkedList to Array
+import java.util.*;
+public class GFG2 {
+    public static void main(String[] args)
+    {
+        LinkedList<Integer> list= new LinkedList<Integer>();
+        list.add(123);
+        list.add(12);
+        list.add(11);
+        list.add(1134);
+        System.out.println("LinkedList: "+ list);
+        Object[] a = list.toArray();
+        System.out.print("After converted LinkedList to Array: ");
+        for(Object element : a)
+        System.out.print(element+" ");
+    }
+}
+
+
+//REMOVE FIRST
+import java.io.*;
+import java.util.LinkedList;
+public class GFG2 {
+    public static void main(String args[]) {
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        System.out.println("LinkedList:" + list);
+        System.out.println("The  remove first element is: " + list.removeFirst());
+        // Displaying the final list
+        System.out.println("Final LinkedList:" + list);
+    }
+}
+
+
+
+
+// Java program to remove elements in a LinkedList
+import java.util.*;
+public class GFG {
+    public static void main(String args[]){ 
+        LinkedList<String> ll = new LinkedList<>();
+        ll.add("Geeks");
+        ll.add("Geeks");
+        ll.add(1, "For");
+        System.out.println("Initial LinkedList " + ll);
+
+        // Function call
+        ll.remove(1);
+        System.out.println("After the Index Removal " + ll);
+
+        ll.remove("Geeks");
+        System.out.println("After the Object Removal " + ll);
+    }
+}
+
+
+
+//REMOVE LAST
+import java.io.*;
+import java.util.LinkedList;
+public class GFG2 {
+    public static void main(String args[])
+    {        
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        System.out.println("LinkedList:" + list);
+        
+        // Remove the tail using removeLast()
+        System.out.println("The last element is removed: " + list.removeLast());
+        // Displaying the final list
+        System.out.println("Final LinkedList:" + list);
+       
+        // Remove the tail using removeLast()
+        System.out.println("The last element is removed: " + list.removeLast());
+        // Displaying the final list
+        System.out.println("Final LinkedList:" + list);
+    }
+}
+
+
+
+// Java program to change elements in a LinkedList
+import java.util.*;
+public class GFG {
+    public static void main(String args[])
+    {
+        LinkedList<String> ll = new LinkedList<>();
+        ll.add("Geeks");
+        ll.add("Geeks");
+        ll.add(1, "Geeks");
+        System.out.println("Initial LinkedList " + ll);
+
+        ll.set(1, "For");
+        System.out.println("Updated LinkedList " + ll);
+    }
+}
+
