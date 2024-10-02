@@ -1,7 +1,6 @@
 //add elements to a LinkedList
 import java.util.LinkedList;
 public class AddElements {
-
     // Main driver method
     public static void main(String[] args) {
         // Creating a LinkedList
@@ -17,6 +16,7 @@ public class AddElements {
         System.out.println(list);
     }
 }
+
 
 
 // Java program to iterate the elements in an LinkedList  
@@ -41,6 +41,8 @@ public class GFG {
     } 
 } 
 
+
+
 //size of LinkedList
 import java.io.*;
 import java.util.LinkedList;
@@ -53,6 +55,8 @@ public class GFG2 {
         System.out.println("The size of the linked list is: " + list.size());
     }
 }
+
+
 
 //LinkedList to Array
 import java.util.*;
@@ -73,6 +77,8 @@ public class GFG2 {
 }
 
 
+
+
 //REMOVE FIRST
 import java.io.*;
 import java.util.LinkedList;
@@ -88,6 +94,8 @@ public class GFG2 {
         System.out.println("Final LinkedList:" + list);
     }
 }
+
+
 
 
 
@@ -110,6 +118,8 @@ public class GFG {
         System.out.println("After the Object Removal " + ll);
     }
 }
+
+
 
 
 
@@ -136,6 +146,8 @@ public class GFG2 {
         System.out.println("Final LinkedList:" + list);
     }
 }
+
+
 
 
 
