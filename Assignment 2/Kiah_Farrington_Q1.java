@@ -86,11 +86,10 @@ public class Kiah_Farrington_Q1 {
         
         System.out.println("Add your elements seperated by spaces(-1 to terminate):");
         LinkedList list = new LinkedList();
-        boolean b = false;
-        while(in.hasNextInt() && !b){
+        while(in.hasNextInt()){
             int data = in.nextInt();
             if (data == -1) {
-                b = true;
+                break;
             }else {
                 list.addNode(data);
             }
